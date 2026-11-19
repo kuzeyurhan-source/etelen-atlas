@@ -4,7 +4,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Atlas of Etelen</title>
-<meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=Alegreya:ital,wght@0,400;0,700;1,400&family=Alegreya+Sans+SC:wght@500;700&display=swap">
 <style>
 /* Colours. Light theme first, then the same names for dark. */
@@ -163,7 +162,7 @@ const COLOUR = { settlement: "var(--town)", monument: "var(--monument)", holy: "
 // Route lines sit on the map image, so their ink doesn't change with the theme.
 const ROUTE_INK = { pilgrim: "#6a4fa3", trade: "#9a6512", smuggling: "#a2324a", drove: "#3d7448", church: "#2b6f86" };
 const SIZE = { 1: "Great place", 2: "Town or site", 3: "Hamlet or small site" };
-const SOURCE = { canon: "Canon", placed: "Canon, map spot and names are Claude's", new: "New idea, keep or cut", planned: "Your future idea, spot is Claude's" };
+const SOURCE = { canon: "Canon", placed: "Canon, but the map spot and names are new", new: "New idea, keep or cut", planned: "Your future idea, map spot is new" };
 
 // Zoom level = how many thousand pixels wide the map is drawn. Each size tier appears at its own level.
 const SHOW_PIN = { 1: 0, 2: 1.45, 3: 2.5 }, SHOW_NAME = { 1: 0.75, 2: 1.9, 3: 3 }, SHOW_ROUTE = { 1: 0, 2: 1.2 };
